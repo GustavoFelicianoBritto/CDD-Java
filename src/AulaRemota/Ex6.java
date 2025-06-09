@@ -27,18 +27,18 @@ public class Ex6 {
 		{
 			System.out.printf("Assassino!! (Nível de suspeita: %d)",suspeita);
 		}
-		else if(suspeita>=3)
-		{
-			System.out.printf("Cúmplice (Nível de suspeita: %d)",suspeita);
-		}
-		else if(suspeita>=2)
-		{
-			System.out.printf("Suspeito... (Nível de suspeita: %d)",suspeita);
-		}
-		else
-		{
-			System.out.printf("Inocente (Nível de suspeita: %d)",suspeita);
-		}
+			else if(suspeita>=3)
+			{
+				System.out.printf("Cúmplice (Nível de suspeita: %d)",suspeita);
+			}
+				else if(suspeita>=2)
+				{
+					System.out.printf("Suspeito... (Nível de suspeita: %d)",suspeita);
+				}
+					else
+					{
+						System.out.printf("Inocente (Nível de suspeita: %d)",suspeita);
+					}
 		
 		
 		
